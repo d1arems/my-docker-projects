@@ -23,3 +23,21 @@ Thumbs.db
 
 # Local configuration
 config/config.json
+
+# System & Shell Files
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
+.cache/
+
+# Git & SSH (High Security Risk)
+.ssh/
+.gitconfig
+
+# Docker Credentials
+.docker/
+
+# Other Projects/Folders
+my-docker-projects/
