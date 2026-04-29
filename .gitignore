@@ -1,2 +1,25 @@
 node_modules
 .DS_Store
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables (CRITICAL: Do not commit these)
+.env
+.env.*
+
+# Docker specific
+.dockerignore
+logs/
+theepicbook_db_data/
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.vscode/
+.idea/
+
+# Local configuration
+config/config.json

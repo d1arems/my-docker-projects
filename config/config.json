@@ -14,7 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable":"JAWSDB_URL",
+    "username": "oladayo_admin",
+    "password": "epicbook_pass",
+    "database": "bookstore",
+    "host": "db",
     "dialect": "mysql"
   }
 }
